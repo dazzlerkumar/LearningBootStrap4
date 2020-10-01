@@ -1,0 +1,18 @@
+{
+  "name": "coursera",
+  "version": "1.0.0",
+  "description": "This is my first NodeJS Learning project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "lite:ie": "lite-server --c bs-ie.json"
+  },
+  "author": "Deepak K",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "minimist": "^1.2.5"
+  }
+}
